@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<title>  </title>
+<style type = "text/css">
+	body{
+			background-color : #ffff80;
+	}
+
+	#para{
+			padding : 50px;
+			border : 20px groove Orange;
+			outline : 5px dotted MediumSeaGreen;
+			margin : 100px;
+			
+			max-height : 200px;
+			max-width : 800px;
+			
+			min-height : 50px;
+			min-width : 50px;
+			
+			overflow : auto;
+			
+			
+			
+	}
+	
+	
+	
+	.ullist{
+			display : inline;
+	}
+	ul{
+			height : 30px;
+			padding : 5px;
+			padding-left : 1100px;
+			background-color : Orange;
+	}
+	img{
+			padding-top : 10px;
+			padding-right : 5px;
+			height : 200px;
+			float : right;
+	}
+
+</style>
+</head>
+<body>
+
+<div id = "nav">
+	<ul type= "none">
+	<li class= "ullist"><a href= "">Login</a></li>
+	<li class= "ullist"><a href= "">Create account</a></li>
+	</ul>
+
+
+</div>
+
+<div id = "para">
+	<h3>CSS and its types</h3>
+	<P> CSS Cascading style sheet is the language used to style HTML document. It describes how HTML elements are to be displayed on screen. 
+	Css saves lot of work and can controls layout of multiple pages at once. Css rule consists of selector and a declaration block. 
+	The selector contains HTML element you want to style. The declaration contains one or more declaration separated by semicolons.
+	Each declaration contains a css property name and value separated by colon. Multiple declarations are separated with semicolons 
+	and surrounded by curly braces.</p>
+
+<p>There are three ways of CSS for inserting a style sheet.</p>
+<img src = "https://static.javatpoint.com/csspages/images/types-of-css.png">
+<ol type ="1">
+		<li>External CSS</li>
+		<li>Internal CSS</li>
+		<li>Inline CSS</li> 
+</ol>
+
+	<p>External style sheets are defined within the 'link' element inside the 'head' element of an HTML file. With an external style 
+	sheets you can change the look of an entire website by changing one file. External CSS files can be written in any text editor and 
+	saved with '.css' extension. The external '.css' does not conatin any HMTL tags.</p>
+	<p>Internal style sheet is used if one single page is to be styled. The internal style is defined inside the style tag in the head section.</p>
+	<p>Inline style is used to style single element. To use inline CSS add the style attribute to the relevant element, it can contain any CSS property.</p>
+	<p>Inline has the highest priority and will override external, internal and browser defaults.</p>  
+	
+
+</div>
+
+</body>
+</html>
