@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<title>  </title>
+<style type = "text/css">
+body{
+			padding : 100px;
+			background-image : url("https://previews.123rf.com/images/dorotelu/dorotelu1509/dorotelu150900007/45351286-multi-coloured-spot-watercolour-abstract-background-horizontal-picture.jpg");
+			background-size : 100% 100%;
+			background-repeat : no-repeat;
+			color : purple;
+			background-attachment : fixed;
+
+}
+#head{
+			position : fixed;
+			left : 20px;
+}
+
+.subhead{
+			padding : 20px;
+			border : 5px inset hotpink;
+			outline : 2px outset black;
+			margin : 50px;
+
+			height : 100px;
+			width : 500px;
+			position : fixed;
+			left : 20px;
+			top : 200px;
+}
+div{
+			padding : 50px;
+			border : 5px inset hotpink;
+			outline : 2px outset black;
+			margin : 50px;
+
+			height : 150px;
+			width : 300px;
+			position : relative;
+			left : 600px;
+			top : 100px;
+}
+
+div h4{                                                   /*Descendant selector*/
+			color : #663d00;
+
+}
+
+div>p{
+			color : #660022;
+}
+
+
+	
+
+</style>
+</head>
+<body>
+
+	<p id = "head">CSS Cascading style sheet is the language used to style HTML document. It describes how HTML elements are to be displayed on screen. 
+	Css saves lot of work and can controls layout of multiple pages at once. Css rule consists of selector and a declaration block. The 
+	selector contains HTML element you want to style. The declaration contains one or more declaration separated by semicolons. Each declaration 
+	contains a css property name and value separated by colon. Multiple declarations are separated with semicolons and surrounded by curly braces.</p>
+			
+
+<div class="subhead">
+	<h2>CSS Combinator Selectors</h2>
+	<p>A combinator selector selects elements based on the specific relation between the elements.</p>
+</div>
+<div id = "box1">
+	<h4>Descendant selector(space)</h4> 
+	<p>This selector is used to select all the child elements of the specified tag. The tags can be the direct child of the specified 
+	tag or can be very deep in the specified tag. This combinator combines the two selectors such that selected elements have an ancestor same as the 
+	first selector element.</p>
+</div>
+<div id = "box2">
+	<h4>Child Selector(>)</h4> 
+	<p>This selector is used to select the element that is the immediate child of the specified tag. This combinator is stricter than the 
+	descendant selector because it selects only the second selector if it has the first selector element as its parent.</p>
+</div>
+<div id = "box3">
+	<h4>Adjacent Sibling selector(+)</h4>
+	<p>The Adjacent sibling selector is used to select the element that is adjacent or the element that is the next to the 
+	specified selector tag. This combinator selects only one tag that is just next to the specified tag.</p>
+</div>
+<div id = "box4">
+	<h4>General Sibling selector(~)</h4>
+	<p>The general sibling selector is used to select the element that follows the first selector element and also share the 
+	same parent as the first selector element. This can be used to select a group of elements that share the same parent element.</p>
+</div>
+
+
+
+
+</body>
+
+</html>
