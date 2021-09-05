@@ -1,0 +1,31 @@
+.heading{
+    text-align: center;
+    color: rgb(80, 9, 80);
+}
+.label{
+    text-align: left;
+}
+body{
+    padding: 200px 200px;
+    background-image: url('https://wallpaperaccess.com/full/632200.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    
+
+}
+table{
+    padding: 40px;
+    background-color: rgb(102, 14, 102);
+    font-family: cursive;
+}
+.tablecontent{
+    padding: 30px 30px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+.content{
+    padding: 20px;
+
+}
